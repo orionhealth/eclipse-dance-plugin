@@ -14,12 +14,11 @@ All items can be enabled or disabled.
 
 ## Installation
 
-In Eclipse, Go to Help > Install New Software. 
-Add update site
-TODO
-
+See https://orionhealth.github.io/eclipse-dance-plugin/
 
 ## For Developers
+
+TODO
 
 ### Building
 In Eclipse, right click the top level plugin project, choose `Export > Deployable features`, set the location as the path to the `update-site`. This will mean the update site is properly linked up with the exported feature jar.
