@@ -8,7 +8,7 @@ If you have ever developed an OSGi plugin you may be familiar with the Eclipse D
 * Add all bundles from target platform into Run/Debug Configuration
 * And sometimes, delete the work directory!
 
-This plugin replaces all of that with a shiny button (code coming shortly).
+This plugin replaces all of that with a shiny button.
 
 All items can be enabled or disabled.
 
