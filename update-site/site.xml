@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Eclipse Dance Plugin" url="https://github.com/orionhealth/eclipse-dance-plugin">
+      Use this update site to install the Eclipse Dance Plugin.
+   </description>
+   <feature url="features/com.orchestral.odt.eclipse.dance_1.0.0.final" id="EclipseDance" version="1.0.0.final">
+      <category name="Eclipse Dance Plugin"/>
+   </feature>
+   <category-def name="Eclipse Dance Plugin" label="Eclipse Dance Plugin"/>
+</site>

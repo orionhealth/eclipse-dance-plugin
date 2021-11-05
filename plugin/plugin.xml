@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Eclipse Dance Action Set"
+            visible="true"
+            id="com.orchestral.odt.eclipse.dance.actionSet">
+           <!-- hide the menu item -->
+<!--        <menu -->
+<!--               label="Eclipse Dance" -->
+<!--               id="eclipseDanceMenu"> -->
+<!--            <separator -->
+<!--                  name="eclipseDanceGroup"> -->
+<!--            </separator> -->
+<!--         </menu> -->
+         
+         <action
+               label="Dance"
+               icon="icons/dance.png"
+               class="com.orchestral.odt.eclipse.dance.actions.DanceAction"
+               tooltip="Dance"
+               menubarPath="eclipseDanceMenu/eclipseDanceGroup"
+               toolbarPath="eclipseDanceGroup"
+               id="com.orchestral.odt.eclipse.dance.actions.DanceAction">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="Eclipse Dance"
+            class="com.orchestral.odt.eclipse.dance.preferences.PreferencePage"
+            id="com.orchestral.odt.eclipse.dance.preferences.PreferencePage">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.orchestral.odt.eclipse.dance.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+</plugin>
